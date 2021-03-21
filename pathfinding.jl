@@ -1,6 +1,4 @@
-module Kata
-export pathfinder
-
+#Depth first implementation for determining whether an agent can travel from starting node to end node
 function pathfinder(maze)
     maze = split(maze, "\n")
     stack = [(1, 1)]
@@ -20,5 +18,3 @@ function pathfinder(maze)
     end
     false
 end
-
-end # module
