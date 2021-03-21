@@ -1,1 +1,0 @@
-This repository contains some simple programs for classical problems, the idea is to learn julia programming language by solving these problems. The programs written here may not be idiomatic as I've translated them from the languages ( which in most cases should be python ) to julia.
